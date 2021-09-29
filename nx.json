@@ -14,12 +14,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "NDVlNTQ1NmUtM2Q5Ny00YmQ1LTg2MjYtZTlhMWY1OTUyOTZjfHJlYWQtd3JpdGU="
       }
     }
@@ -38,9 +33,14 @@
     },
     "dk-cartwright-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "dk-cartwright"
-      ]
+      "implicitDependencies": ["dk-cartwright"]
+    },
+    "dominic": {
+      "tags": []
+    },
+    "dominic-e2e": {
+      "tags": [],
+      "implicitDependencies": ["dominic"]
     }
   }
 }
