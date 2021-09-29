@@ -8,48 +8,11 @@ import { Route, Link } from 'react-router-dom';
 export function App() {
   return (
     <div className={styles.app}>
-      <div
-        className="sticky-wrapper sticky-wrapper-transparent sticky-wrapper-effect-1 sticky-wrapper-border-bottom"
-        data-plugin-sticky
-        data-plugin-options="{'minWidth': 0, 'stickyStartEffectAt': 100, 'padding': {'top': 0}}"
-      >
-        <div className="sticky-body">
-          <div className="container-fluid">
-            <div className="row align-items-center">
-              <div className="col-9">
-                <div className="py-4">
-                  <a href="index.html">
-                    <img
-                      alt="Porto"
-                      width="100"
-                      height="48"
-                      data-change-src="img/logo-flat.png"
-                      src="img/logo-default-slim.png"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className="col-3 text-end">
-                <button
-                  className="hamburguer-btn hamburguer-btn-light hamburguer-btn-sticky-dark"
-                  data-set-active="false"
-                >
-                  <span className="hamburguer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <header className="flex">
+      <header className="flex">
         <Logo width="75" height="75" />
         <h1>Welcome to dominic!</h1>
-      </header> */}
-      {/* <main>
+      </header>
+      <main>
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
         <div className="flex github-star-container">
@@ -132,12 +95,12 @@ nx affected:test
 nx affected:e2e
   `}</pre>
         </details>
-      </main> */}
+      </main>
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
-      {/* <br />
+      <br />
       <hr />
       <br />
       <div role="navigation">
@@ -168,7 +131,7 @@ nx affected:e2e
             <Link to="/">Click here to go back to root page.</Link>
           </div>
         )}
-      /> */}
+      />
       {/* END: routes */}
     </div>
   );
